@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--=============== Favicon ===============-->
+  <link rel="shortcut icon" href="./images/logo.png" type="image/png" />
+  <!--=============== Swiper CSS ===============-->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <!--=============== Boxicons ===============-->
+  <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet" />
+  <!--=============== Custom StyleSheet ===============-->
+  <link rel="stylesheet" href="./css/styles.css" />
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <!--=============== Header ===============-->
+  <header class="header">
+    <nav class="navbar">
+      <div class="row d-flex container">
+        <a href="" class="logo d-flex">
+          <img src="./images/logo.png" alt="" />
+        </a>
+
+        <ul class="nav-list d-flex">
+          <a href="">Home</a>
+          <a href="">About</a>
+          <a href="">Projects</a>
+          <a href="">Services</a>
+          <a href="">Contact</a>
+          <span class="close d-flex"><i class="bx bx-x"></i></span>
+        </ul>
+    </nav>
+
+    <!--=============== Home ===============-->
+    <div class="home">
+      <div class="row container">
+        <div class="col">
+          <div class="faster">
+            Code Faster
+            <div class="image d-flex">
+              <img src="./images/typing.png" alt="" />
+            </div>
+          </div>
+          <h1>
+            Hi, My Name is <br />
+            Boruto <br />
+            <p></p>
+            <span class="color"> I'm a passionate developer</span>
+          </h1>
+          <p>
+            ready to turn your ideas into reality.
+          </p>
+          <a href="" class="btn">Explore about me</a>
+          <a href="https://github.com/boruto563" target="_blank" class="btn">Visit GitHub</a>
+        </div>
+        <div class="col">
+          <img src="./images/Boruto.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!--=============== About ===============-->
+  <section class="section about" id="about">
+    <div class="row container">
+      <div class="col">
+        <img src="./images/web-dev.png" alt="" />
+      </div>
+      <div class="col">
+        <h2>Take a look at the benefits I offer for you</h2>
+        <p>
+          Good service means a friendly, welcoming service. A Web developer
+          should not merely strive to avoid bad service,
+        </p>
+        <div class="d-grid">
+          <div class="card">
+            <img src="./images/consult.png" alt="" />
+            <h4>Free Consulting</h4>
+            <span>Consultion is free for Every Project</span>
+          </div>
+          <div class="card">
+            <img src="./images/money-bag.png" alt="" />
+            <h4>Best Money Value</h4>
+            <span>I do my best to execute the best value for your money</span>
+          </div>
+          <div class="card">
+            <img src="./images/security-icon.svg" alt="" />
+            <h4>Privacy and Security</h4>
+            <span>100% Secure and Private Enviornment </span>
+          </div>
+          <div class="card">
+            <img src="./images/time-icon.svg" alt="" />
+            <h4>Quality Support</h4>
+            <span>Alway Online 24/7</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--=============== Footer ===============-->
+  <footer class="footer">
+    <div class="row container">
+      <div class="col">
+        <div class="logo d-flex">
+          <img id="logo" src="./images/logo.png" alt="logo" />
+        </div>
+        <p>
+          A Portfolio to introduce myself and my work. I'm a web developer 
+        </p>
+        <div class="icons d-flex">
+          <div class="icon d-flex">
+            <i class="bx bxl-facebook"></i>
+          </div>
+          <div class="icon d-flex"><i class="bx bxl-twitter"></i></div>
+          <div class="icon d-flex"><i class="bx bxl-linkedin"></i></div>
+        </div>
+      </div>
+      <div class="col">
+        <div>
+          <h4>Personal</h4>
+          <a href="">About Me</a>
+          <a href="">Blog</a>
+          <a href="">GitHub</a>
+          <a href="">Skills Map</a>
+        </div>
+        <div>
+          <h4>Services</h4>
+          <a href="">Web-Dev</a>
+          <a href="">DB Managemant</a>
+          <a href="">Bug-Bounty</a>
+          <a href="">Terms & Conditions</a>
+        </div>
+        <div>
+          <h4>Support</h4>
+          <a href="">FAQ</a>
+          <a href="">Policy </a>
+          <a href="">Business</a>
+          <a href="">Support Carrer</a>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <a href="">WhatsApp</a>
+          <a href="">Feddback</a>
+          <a href="">Quick Chat</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="footer-bottom">
+    <div class="row container d-flex">
+      <p>Copyright &copy; <span id="currentYear"></span></p>
+      <p>Created by Dark</p>
+      <p>All rights reserved.</p>
+    </div>
+  </div>
+
+  <!--=============== Swiper JS ===============-->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!--=============== Custom JS ===============-->
+  <script>
+    // for footer current year
+    var currentYear = new Date().getFullYear();
+    document.getElementById('currentYear').textContent = currentYear;
+  </script>
+</body>
+
+</html>
